@@ -6,6 +6,7 @@ import pyperclip
 import sys
 import os
 
+
 def resource_path(relative_path):
     """ 获取资源的绝对路径(兼容打包后的exe)"""
     if hasattr(sys, '_MEIPASS'):
