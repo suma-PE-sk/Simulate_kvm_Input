@@ -3,5 +3,6 @@
 
 #   使用方法：
 #   pip install -r requirements.txt
+#   python.exe -m pip install --upgrade pip
 #   pip install pyinstaller
 #   pyinstaller -F -w --onefile --icon=icon.ico Simulate_kvm_Input.py
