@@ -6,13 +6,11 @@ import pyperclip
 import sys
 import os
 
-
 def resource_path(relative_path):
     """ 获取资源的绝对路径(兼容打包后的exe)"""
     if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, relative_path)
     return os.path.join(os.path.abspath("."), relative_path)
-
 
 class ClipboardMonitor:
     def __init__(self):
@@ -197,7 +195,6 @@ class ClipboardMonitor:
 
     def run(self):
         self.root.mainloop()
-
 
 if __name__ == "__main__":
     app = ClipboardMonitor()
